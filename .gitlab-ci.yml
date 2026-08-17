@@ -1,11 +1,10 @@
 pages:
   stage: deploy
   script:
-    - test -f public/index.html
-    - echo "Publishing Dr Shamendra Egodawela's academic portfolio"
+    - if (-not (Test-Path "public/index.html")) { throw "public/index.html is missing" }
+    - Write-Output "Publishing Dr Shamendra Egodawela's academic portfolio"
   artifacts:
     paths:
       - public
   rules:
     - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH'
-
