@@ -1,0 +1,169 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="650" viewBox="50 120 1500 650" role="img" aria-labelledby="title desc">
+  <title id="title">Agentic AI for Geospatial Intelligence architecture</title>
+  <desc id="desc">Architecture showing a Streamlit interface, LangChain orchestrator, specialist agents, controlled tools, deterministic services, spatial data artifacts, provenance, and offline AHP governance.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#4b5563"/>
+    </marker>
+    <filter id="shadow" x="-10%" y="-15%" width="120%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#111827" flood-opacity=".12"/>
+    </filter>
+    <style>
+      text{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;fill:#18212f;letter-spacing:0}
+      .title{font-size:34px;font-weight:750}
+      .subtitle{font-size:16px;fill:#5b6472}
+      .layer{font-size:14px;font-weight:750;letter-spacing:1.4px;fill:#657080}
+      .box-title{font-size:21px;font-weight:750}
+      .box-copy{font-size:15px;fill:#4b5563}
+      .small-title{font-size:17px;font-weight:720}
+      .small-copy{font-size:13px;fill:#5f6875}
+      .pill{font-size:12px;font-weight:700}
+      .arrow{fill:none;stroke:#4b5563;stroke-width:3;marker-end:url(#arrow)}
+      .dash{fill:none;stroke:#8b95a3;stroke-width:2.5;stroke-dasharray:8 8;marker-end:url(#arrow)}
+    </style>
+  </defs>
+
+  <rect width="1600" height="900" fill="#f7f8fa"/>
+  <rect x="0" y="0" width="1600" height="92" fill="#ffffff"/>
+  <rect x="0" y="91" width="1600" height="1" fill="#d9dde3"/>
+  <text class="title" x="70" y="48">Agentic AI for Geospatial Intelligence</text>
+  <text class="subtitle" x="70" y="74">LLM-directed workflow orchestration with deterministic, auditable spatial evidence</text>
+  <rect x="1325" y="29" width="205" height="37" rx="8" fill="#e9f7f3" stroke="#74b8a7"/>
+  <text class="pill" x="1428" y="53" text-anchor="middle" fill="#176b57">EXPLAINABLE BY DESIGN</text>
+
+  <text class="layer" x="70" y="132">MISSION AND AGENT ORCHESTRATION</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="158" width="245" height="122" rx="8" fill="#ffffff" stroke="#cbd2dc" stroke-width="2"/>
+    <rect x="70" y="158" width="9" height="122" rx="4" fill="#e4a62c"/>
+    <circle cx="112" cy="199" r="17" fill="#fff2d6" stroke="#e4a62c"/>
+    <text class="box-title" x="142" y="205">Streamlit interface</text>
+    <text class="box-copy" x="100" y="239">Receives a structured</text>
+    <text class="box-copy" x="100" y="261">geospatial analysis mission</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="390" y="145" width="305" height="148" rx="8" fill="#eef5ff" stroke="#73a2dc" stroke-width="2"/>
+    <rect x="390" y="145" width="9" height="148" rx="4" fill="#3978bd"/>
+    <text class="box-title" x="425" y="187">LangChain orchestrator</text>
+    <text class="box-copy" x="425" y="218">Interprets the mission and delegates</text>
+    <text class="box-copy" x="425" y="240">one bounded task to the correct</text>
+    <text class="box-copy" x="425" y="262">specialist without reading raw data</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="785" y="145" width="320" height="148" rx="8" fill="#eaf8f4" stroke="#65ae99" stroke-width="2"/>
+    <rect x="785" y="145" width="9" height="148" rx="4" fill="#20856d"/>
+    <text class="box-title" x="820" y="187">Population &amp; demand agent</text>
+    <text class="box-copy" x="820" y="218">Chooses the approved inspection,</text>
+    <text class="box-copy" x="820" y="240">build, and validation tools in a</text>
+    <text class="box-copy" x="820" y="262">strict evidence-readiness sequence</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1190" y="145" width="340" height="148" rx="8" fill="#fff8e8" stroke="#d7a94c" stroke-width="2"/>
+    <text class="small-title" x="1220" y="181">Planned specialist agents</text>
+    <rect x="1220" y="199" width="132" height="34" rx="8" fill="#ffffff" stroke="#d8c18d"/>
+    <text class="pill" x="1286" y="220" text-anchor="middle">PLANNING &amp; GROWTH</text>
+    <rect x="1363" y="199" width="137" height="34" rx="8" fill="#ffffff" stroke="#d8c18d"/>
+    <text class="pill" x="1432" y="220" text-anchor="middle">COVERAGE &amp; TERRAIN</text>
+    <rect x="1220" y="244" width="132" height="34" rx="8" fill="#ffffff" stroke="#d8c18d"/>
+    <text class="pill" x="1286" y="265" text-anchor="middle">PARCEL INTELLIGENCE</text>
+    <rect x="1363" y="244" width="137" height="34" rx="8" fill="#ffffff" stroke="#d8c18d"/>
+    <text class="pill" x="1432" y="265" text-anchor="middle">CONSTRAINTS &amp; RISK</text>
+  </g>
+
+  <path class="arrow" d="M315 219 H382"/>
+  <path class="arrow" d="M695 219 H777"/>
+  <path class="dash" d="M1105 219 H1182"/>
+  <rect x="708" y="198" width="64" height="41" rx="8" fill="#ffffff" stroke="#b9c1cc"/>
+  <text class="pill" x="740" y="215" text-anchor="middle">DELEGATE</text>
+  <text class="pill" x="740" y="231" text-anchor="middle">TOOL</text>
+
+  <text class="layer" x="70" y="338">CONTROLLED TOOL AND COMPUTATION BOUNDARY</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="365" width="640" height="192" rx="8" fill="#ffffff" stroke="#cbd2dc" stroke-width="2"/>
+    <text class="small-title" x="104" y="402">Agent-facing tools</text>
+    <text class="small-copy" x="104" y="425">Compact structured results only; formulas and file access remain outside the LLM</text>
+
+    <rect x="104" y="450" width="174" height="74" rx="8" fill="#f1f5fa" stroke="#b9c6d6"/>
+    <text class="small-title" x="191" y="479" text-anchor="middle">Inspect</text>
+    <text class="small-copy" x="191" y="502" text-anchor="middle">sources and cache state</text>
+
+    <rect x="303" y="450" width="174" height="74" rx="8" fill="#f1f5fa" stroke="#b9c6d6"/>
+    <text class="small-title" x="390" y="479" text-anchor="middle">Build</text>
+    <text class="small-copy" x="390" y="502" text-anchor="middle">approved artifacts</text>
+
+    <rect x="502" y="450" width="174" height="74" rx="8" fill="#f1f5fa" stroke="#b9c6d6"/>
+    <text class="small-title" x="589" y="479" text-anchor="middle">Validate</text>
+    <text class="small-copy" x="589" y="502" text-anchor="middle">coverage and formulas</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="790" y="365" width="740" height="192" rx="8" fill="#ffffff" stroke="#cbd2dc" stroke-width="2"/>
+    <text class="small-title" x="824" y="402">Deterministic Python services</text>
+    <text class="small-copy" x="824" y="425">Reproducible joins, feature calculations, validation, fingerprints, and quality flags</text>
+
+    <rect x="824" y="450" width="318" height="74" rx="8" fill="#eaf8f4" stroke="#65ae99"/>
+    <text class="small-title" x="983" y="479" text-anchor="middle">DatasetService</text>
+    <text class="small-copy" x="983" y="502" text-anchor="middle">filter / join / type-check / cross-check</text>
+
+    <rect x="1177" y="450" width="318" height="74" rx="8" fill="#eef5ff" stroke="#73a2dc"/>
+    <text class="small-title" x="1336" y="479" text-anchor="middle">FeatureService</text>
+    <text class="small-copy" x="1336" y="502" text-anchor="middle">calculate / fingerprint / flag / validate</text>
+  </g>
+
+  <path class="arrow" d="M945 293 V315 H390 V357"/>
+  <path class="arrow" d="M710 487 H782"/>
+
+  <text class="layer" x="70" y="607">SPATIAL EVIDENCE, ARTIFACTS, AND GOVERNANCE</text>
+
+  <g filter="url(#shadow)">
+    <rect x="70" y="635" width="280" height="128" rx="8" fill="#fff8e8" stroke="#d7a94c" stroke-width="2"/>
+    <text class="small-title" x="100" y="673">Approved spatial sources</text>
+    <text class="small-copy" x="100" y="701">Demographic / planning / market</text>
+    <text class="small-copy" x="100" y="724">terrain / imagery / infrastructure</text>
+    <rect x="100" y="738" width="116" height="25" rx="8" fill="#fff1c9"/>
+    <text class="pill" x="158" y="755" text-anchor="middle">SOURCE-CONTROLLED</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="405" y="635" width="280" height="128" rx="8" fill="#ffffff" stroke="#93a0b2" stroke-width="2"/>
+    <text class="small-title" x="435" y="673">Validated base table</text>
+    <text class="small-copy" x="435" y="701">Geographic hierarchy and factual</text>
+    <text class="small-copy" x="435" y="724">source fields prepared for analysis</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="740" y="635" width="280" height="128" rx="8" fill="#eaf8f4" stroke="#65ae99" stroke-width="2"/>
+    <text class="small-title" x="770" y="673">Validated spatial features</text>
+    <text class="small-copy" x="770" y="701">Versioned evidence with explicit</text>
+    <text class="small-copy" x="770" y="724">quality flags and no invented values</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1075" y="635" width="215" height="128" rx="8" fill="#eef5ff" stroke="#73a2dc" stroke-width="2"/>
+    <text class="small-title" x="1105" y="673">Manifest</text>
+    <text class="small-copy" x="1105" y="701">Source fingerprints</text>
+    <text class="small-copy" x="1105" y="724">Policy versions / lineage</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="1345" y="635" width="185" height="128" rx="8" fill="#f3eefb" stroke="#9a79c1" stroke-width="2"/>
+    <text class="small-title" x="1375" y="673">Offline AHP</text>
+    <text class="small-copy" x="1375" y="701">Human + synthetic</text>
+    <text class="small-copy" x="1375" y="724">review and approval gate</text>
+  </g>
+
+  <path class="arrow" d="M350 699 H397"/>
+  <path class="arrow" d="M685 699 H732"/>
+  <path class="arrow" d="M1020 699 H1067"/>
+  <path class="dash" d="M1345 699 H1298"/>
+  <path class="arrow" d="M983 524 V594 H880 V627"/>
+
+  <rect x="70" y="812" width="1460" height="48" rx="8" fill="#18212f"/>
+  <text x="800" y="842" text-anchor="middle" font-size="16" font-weight="650" style="fill:#ffffff">Agent decisions are bounded and explainable; numerical evidence remains deterministic, versioned, and auditable.</text>
+</svg>
+
+
